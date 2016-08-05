@@ -1,0 +1,21 @@
+{
+  "name": "cricky",
+  "version": "1.0.0",
+  "description": "Multiplayer - RealTime - Career featured Cricket Game",
+  "main": "./server/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node src/index.js"
+  },
+  "keywords": [
+    "cricket",
+    "multiplayer"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.14.0",
+    "mysql": "^2.11.1",
+    "sequelize": "^3.23.6"
+  }
+}

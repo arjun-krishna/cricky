@@ -1,0 +1,9 @@
+login as root : mysql -u root -p
+
+run :
+
+create database cricky;
+create user 'cricky'@'localhost' identified by 'cricky';
+grant all on cricky.* to 'cricky'
+
+you can login as : mysql -u cricky -p ( psswd : cricky )
